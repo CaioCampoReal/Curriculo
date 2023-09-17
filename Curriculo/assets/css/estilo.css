@@ -1,0 +1,63 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+
+/* Layout
+-----------------------------*/
+html, body, #home {
+	overflow-x: hidden;
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(150, 143, 134, 0.904);
+}
+
+th {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+td {
+	padding: 20px;
+	vertical-align: top;
+}
+tr {
+	background-color:  rgb(22, 22, 65);
+}
+
+#curriculo {
+	margin-top: 2em;
+	width: 720px;
+	height: 90%;
+	border: 2px solid rgba(121, 122, 113, 0.74);
+	box-shadow: 6px 16px 5px rgba(0, 0, 0, 0.171);
+}
+
+.divisor {
+	width: 100%;
+	height:2px;
+	background-color: rgba(39, 55, 128, 0.514)
+}
+/* Tipografia
+-----------------------------*/
+h1 {
+	font-size: 48px;
+	font-weight: 600;
+	color: white;
+}
+h3 ,h5{
+	color: rgb(39, 56, 128);
+}
+
+p {
+	font-size: 15px;
+}
+
+li {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
